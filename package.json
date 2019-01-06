@@ -1,0 +1,22 @@
+{
+  "name": "@chashitsu/common-css",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chashitsu-org/common-css.git"
+  },
+  "author": "Chashitsu",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/chashitsu-org/common-css/issues"
+  },
+  "homepage": "https://github.com/chashitsu-org/common-css#readme",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
