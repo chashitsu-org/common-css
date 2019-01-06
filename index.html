@@ -1,21 +1,49 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <script>
-        window.addEventListener("load", function() {
-            const linkElement =  document.createElement("link");
+        window.addEventListener("load", function () {
+            const linkElement = document.createElement("link");
             linkElement.setAttribute("rel", "stylesheet");
             linkElement.setAttribute("href", "dist/style.css?" + Date.now());
             document.head.appendChild(linkElement);
         });
     </script>
 </head>
+
 <body>
-    <h1>テストページ</h1>
-    <p>test</p>
+    <h1>Chashitsu Common CSS (CCCSS)</h1>
+    <p>Chashitsu Common CSS (CCCSS) は、複雑なレイアウトを持たないHTMLページを低コストで整形するスタイルシート（予定地）です。</p>
+
+    <h2>ビルド</h2>
+    <p>node/npm が必要です</p>
+    <pre>
+$ npm i
+$ npm run build
+</pre>
+    <p>で <code>dist/</code> 下にCSSが生成されます。</p>
+
+    <h2>サンプルを動作させる</h2>
+    <p>node/npm が必要です。</p>
+    <pre>
+$ npm i
+$ npm start
+</pre>
+    <p>でブラウザが立ち上がります。</p>
+
+    <h2>ライセンス</h2>
+    <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.ja">CC0-1.0</a>
+
+    <h3>h3</h3>
+    <h4>h4</h4>
+    <h5>h5</h5>
+    <h6>h6</h6>
+    <p>paragraph</p>
 </body>
+
 </html>
