@@ -3,6 +3,7 @@ $color-secondary: #f4f400;
 
 body {
     margin: 0;
+    padding: 0 1em;
     border-top: 10px solid $color-primary;
     background-color: #EEEEEE;
     &:before {
