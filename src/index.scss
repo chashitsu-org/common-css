@@ -43,6 +43,13 @@ p {
     padding: 0.4em;
 }
 
-pre {
+pre, blockquote {
     padding: 0.4em;
+    background-color: #DDDDDD;
+    margin: 0.3em;
+    font-family: auto;
+}
+
+blockquote {
+    border-left: 0.3em solid $color-primary;
 }
