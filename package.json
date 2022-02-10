@@ -20,7 +20,7 @@
   "homepage": "https://github.com/chashitsu-org/common-css#readme",
   "devDependencies": {
     "http-server": "^0.11.1",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "npm-run-all": "^4.1.5",
     "shelljs": "^0.8.3",
     "shx": "^0.3.2"
